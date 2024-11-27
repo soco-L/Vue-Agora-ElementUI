@@ -3,6 +3,7 @@
         <header-s v-if="hasUser"></header-s>
         <router-view v-if="reloadV"/>
         <footer-s></footer-s>
+        <div></div>
     </div>
 </template>
 
